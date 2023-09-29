@@ -1,0 +1,61 @@
+.mn-con-1{
+    margin: 50px 20px 0 20px;
+    padding:10px 7px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 400px;
+}
+.mn-con-1 + p{
+    width: 800px;
+    font-size: large;
+    margin-left: 200px;
+    padding: 10px 10px;
+}
+.mn-con-2 + p{
+    margin-top: 20px;
+    font-size: large;
+    margin-left: 200px;
+    padding: 10px 10px;
+}
+.mn-h5-tag{
+    width:500px;
+    padding-left:20px;
+    margin:30px 10px 10px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.mn-h5-tag + p{
+    width:800px;
+    padding-left: 200px;
+    margin: 10px;
+}
+.op
+{
+    position: relative;
+    border:2px solid black;
+    margin:100px;
+    margin-left:500px;
+    height:300px;
+    width:300px;
+    border-radius: 20px;
+    background-color: rgb(10, 43, 43);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
+
+.op > input{
+    position: relative;
+    left: 55px;
+}
+.op > button{
+    position: relative;
+    left:110px;
+}
+.op > input , 
+.op > button{
+    top:30%;
+}
+
+.main-content{
+    margin-left: 300px;
+}
